@@ -7,7 +7,7 @@ const MovieItem = ({ it , getMovieApi}) => {
   const toggleIsEdit = () => setIsEdit(!isEdit);
 
   const onEdit = (targetId) => {
-    console.log(`${it.id}클릭`);
+    //console.log(`${it.id}클릭`);
     Axios.post("http://localhost:8080/edit",{
       id : it.id,
       title : it.title,
@@ -40,7 +40,7 @@ const MovieItem = ({ it , getMovieApi}) => {
 
   //수정하기
   const handleEdit = () => {
-    window.confirm(`${it.id}번째 리뷰를 수정하시겠습니까?`);
+    window.confirm('리뷰를 수정하시겠습니까?');
     onEdit(it.id);
     toggleIsEdit()
   };

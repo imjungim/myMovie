@@ -1,7 +1,7 @@
-// function getProducts() {
-//   return (dispatch, getState) => {
+function getDataAction () {
+  return (dispatch, getState) => {
 
-//   }
-// }
+  }
+}
 
-// export const action = {getProducts}
+export const action = {getDataAction}
