@@ -91,15 +91,3 @@ app.delete("/api/delete", function (req, res) {
     res.send(result);
   });
 });
-
-// //리뷰검색
-// app.get("/api/search",function(req, res){
-//   console.log("searchkeyword",req.params)
-//   // db.collection("post").find({title : req.body.title}).toArray(function(error, result){
-//   //   console.log("성공???",result)
-//   //   if(error){
-//   //     console.log(error)
-//   //   }
-//   //   res.send(result);
-//   // })
-// })
