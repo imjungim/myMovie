@@ -1,5 +1,6 @@
 # myMovieReview
-![image](https://user-images.githubusercontent.com/97380925/196332663-6bba4b2f-b515-492e-9c09-f5cbfe915f87.png)
+![MovieReview](https://user-images.githubusercontent.com/97380925/200504367-3f2a25f1-546e-41ad-b8b1-650de6af649d.gif)
+
 
 ## 기능
 1. 영화 리뷰 등록하기, 수정, 삭제기능
