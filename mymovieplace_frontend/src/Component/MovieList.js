@@ -19,8 +19,7 @@ const MovieList = () => {
       console.log(response.data);
       setMovieItem(response.data.reverse()); //최신순으로 정렬
     });
-    //setData(movieItem.slice(indexOfFirst, indexOfLast)); //0~5까지 아이템
-    //console.log("data",data)
+
 
   };
 
