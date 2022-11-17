@@ -70,6 +70,11 @@ textarea:active {
   padding: 10px;
 }
 
+.MovieForm textarea{
+  resize : vertical;
+  overflow-wrap: break-word; /*텍스트가 엄청나게 길어질때 강제로 줄바꿈*/
+}
+
 /* MovieList */
 .item-head {
   display: flex;
