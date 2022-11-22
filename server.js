@@ -36,7 +36,7 @@ app.get("/api/get", function (req, res) {
 
 //리뷰등록
 app.post("/api/insert", function (req, res) {
-  res.send("성공ㅇ");
+  res.send("성공");
   db.collection("counter").findOne({ name: "count" }, function (err, res) {
     let total = res.totalPost;
     let saveContent = {
