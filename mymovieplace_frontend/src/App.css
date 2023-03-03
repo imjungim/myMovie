@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+button,
+input,
+textarea {
+  font-family: "DM sans";
+  font-size: 16px;
+}
+
+button:focus,
+button:active,
+input:focus,
+input:active,
+textarea:focus,
+textarea:active {
+  outline: none;
+  box-shadow: none;
+}
+
+.head {
+  text-align: center;
+  margin: 30px 0;
+  font-family: sans-serif;
+  font-weight: 700;
+}
+
+/* MovieForm */
+
+.MovieForm {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-family: "DM sans";
+}
+
+.title-input {
+  width: 80%;
+  height: 40px;
+  margin-right: 15px;
+  margin-bottom: 20px;
+  border-radius: 7px;
+  border: 1px solid rgb(228, 227, 227);
+}
+
+.grade {
+  width: 17%;
+  height: 40px;
+  padding: 0;
+  border: none;
+  border-radius: 7px;
+  background-color: rgb(228, 227, 227);
+}
+
+.review {
+  height: 60vh;
+  margin-bottom: 20px;
+  border-radius: 7px;
+  border: 1px solid rgb(228, 227, 227);
+}
+
+.movie-button {
+  border: none;
+  border-radius: 7px;
+  background-color: rgb(255, 247, 170);
+  padding: 10px;
+}
+
+.MovieForm textarea{
+  resize : vertical;
+  overflow-wrap: break-word; /*텍스트가 엄청나게 길어질때 강제로 줄바꿈*/
+}
+
+/* MovieList */
+.item-head {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.search-input {
+  border-radius: 7px;
+  border: 1px solid rgb(228, 227, 227);
+  margin-right: 5px;
+}
+.search-button {
+  border: none;
+  border-radius: 7px;
+  background-color: rgb(255, 247, 170);
+}
+/* MovieItem */
+
+.MovieItem {
+  font-family: "DM sans";
+  border: 1px solid rgb(228, 227, 227);
+  border-radius: 7px;
+  margin-bottom: 20px;
+}
+
+.item-title {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(228, 227, 227);
+  margin-bottom: 10px;
+}
+
+.item-title span {
+  padding: 4px;
+  margin-left: 6px;
+ 
+}
+
+.item-date {
+  padding: 4px;
+  margin-right: 6px;
+  font-size: 10px;
+}
+
+.item-button button:first-child {
+  background-color: rgb(255, 247, 170);
+}
+
+.item-content {
+  margin-left: 10px;
+  margin-bottom: 10px;
+  font-size: 16px;
+  font-family: 'DM-sans';
+}
+.item-content-text {
+  border: 1px solid rgb(228, 227, 227);
+  border-radius: 7px;
+}
+.item-button button {
+  border: none;
+  border-radius: 7px;
+  background-color: rgb(228, 227, 227);
+  padding: 5px;
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
+
+/* pagination */
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'DM Sans';
+  margin-top: 30px;
+}
+
+.pagination a{
+  text-decoration: none;
+  color: black;
+}
+
+.pagination li {
+  list-style: none;
+  padding-left: 12px;
+  padding-right: 18px;
+  padding-bottom: 15px;
+
+}
+
+.pagination .active {
+  width: 30px;
+  height: 30px;
+  color: gray;
+  border-radius: 50px;
+}
